@@ -1,1 +1,3 @@
 # Project-ETL
+In this project, we will pull datasets from data sources (Kaagle, gunviolencearchive.org, and  census.gov) on gun violence by comparing it to social economics using census data.  The data will be subset to look at other variables such as trends by date, state, the number killed or injured.   
+For census data, we will look at 2010 and 2020.  We will preprocess data, extract, transform and then load to database.
