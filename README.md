@@ -1,10 +1,11 @@
 # Project-ETL
 Team Members: Michelle Davis, Marie Prosper, Novac Radovic 
 
-Project Objectives
+## Project Objectives
+
 The aim of this explore, transform and load (ETL) project is to provide a database for data analysts to use analyze various relationship of gun violence and other socio economic factors.  
 
-Extract
+## Extract
 
 For the given ETL project, our original three sets of data. The first dataset was on gun violence from 2013 - 2018. This data was taken from Kaggle at the following [Gun Violence Data](Comprehensive%20record%20of%20over%20260k%20US%20gun%20violence%20incidents%20from%202013-2018/).  Comprehensive record of over 260k US gun violence incidents from 2013-2018.  This data had over 260,000 rows and 29 columns.  The data included information such as, gun type, participant age, state, and description of incident, etc.  
 
