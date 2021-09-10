@@ -15,7 +15,7 @@ The third data set was from population data for United States by State. This dat
 
 ## Transform
 
-The transformation process began by working on the csv data files mentioned in extract phase.  First we imported csv file for gun violence and read into Dataframe in Jupyter Notebook[Gun Violence Jupyter Notebook](https://github.com/davism02/Project-ETL/blob/main/guns_clean.ipynb
+The transformation process began by working on the csv data files mentioned in extract phase.  First we imported csv file for gun violence and read into Dataframe in Jupyter Notebook[Gun Violence Jupyter Notebook](https://github.com/davism02/Project-ETL/blob/main/guns_clean.ipynb)
 
 Second we imported the poverty csv file and filtered out Footnotes column and Puerto Rico as a state row since we were not including Puerto Rico as a state.  We then changed the NAN to zeros then save csv files for 2016 Poverty and 2017 Poverty.   
 
