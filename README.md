@@ -31,8 +31,13 @@ We used pandas to import from pandas to the database. Check PgAdmin to make sure
 ## Next Steps
 
 This database will now be handed off to data analysts. Some of the questions that can be answered from this database are as follows:
+
 •	How does population density affect gun violence?
+
 •	Is there a correlation between poverty and gun violence?
+
 •	Does the demographic percentage play a factor in gun violence?
+
 •	Is gun violence consistent between 2016 and 2017?
+
 •	Which states have the most gun violence per capita?
