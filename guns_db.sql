@@ -47,5 +47,23 @@ CREATE TABLE "totalpopulation" (
     
 );
 
-SELECT *
-FROM "2017poverty"
+CREATE TABLE "merged_data" (
+	id INT PRIMARY KEY,
+	year INT NOT NULL,
+	state TEXT NOT NULL,
+	white DECIMAL NOT NULL,
+	black DECIMAL NOT NULL,
+	hispanic DECIMAL NOT NULL,
+	"asian/native hawaiian and pacific islander" DECIMAL NOT NULL,
+	"american indian/alaska native" DECIMAL NOT NULL,
+	"multiple_races" DECIMAL NOT NULL,
+	total_poverty DECIMAL NOT NULL,
+	n_killed INT NOT NULL,
+	n_injured INT NOT NULL,
+	population_rank INT NOT NULL,
+	population INT NOT NULL,
+	density_per_sq_mi DECIMAL NOT NULL
+);
+
+SELECT * FROM merged_data
+
