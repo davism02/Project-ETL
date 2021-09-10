@@ -15,7 +15,7 @@ The third data set was from population data for United States by State. This dat
 
 ## Transform
 
-The transformation process began by working on the csv data files mentioned in extract phase.  First we imported csv file for gun violence and read into Dataframe in Jupyter Notebook.  We filtered the pandas dataframe to select only columns needed.  The dataset was narrowed from 30 columns to 4 columns, (date, state, number killed & number injured).  Since this dataset had 2013-2018 data and we decided to study 2016-2017 were subset the dataframe. For the date field we split the column into 3 columns (month, day, year).  From this we decided we only needed by year so we did a groupby (year and state) and aggregate by sum of number killed and number injured.    After aggregation we reset the index to create new column id.  Additionally, we created two data sets, 2016 &2017, gun violence incidents.  These data sets were then exported to csv files.    
+The transformation process began by working on the csv data files mentioned in extract phase.  First we imported csv file for gun violence and read into Dataframe in Jupyter Notebook[Gun Violence Jupyter Notebook](https://github.com/davism02/Project-ETL/blob/main/guns_clean.ipynb
 
 Second we imported the poverty csv file and filtered out Footnotes column and Puerto Rico as a state row since we were not including Puerto Rico as a state.  We then changed the NAN to zeros then save csv files for 2016 Poverty and 2017 Poverty.   
 
