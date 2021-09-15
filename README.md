@@ -15,7 +15,7 @@ The third data set was from population data for United States by State. This dat
 
 ## Transform
 
-The transformation process began by working on the csv data files mentioned in extract phase.  First we imported csv file for gun violence and read into Dataframe in Jupyter Notebook[Gun Violence Jupyter Notebook](https://github.com/davism02/Project-ETL/blob/main/guns_clean.ipynb)
+The transformation process began by working on the csv data files mentioned in extract phase.  First we imported csv file for gun violence and read into Dataframe in Jupyter Notebook[Gun Violence Jupyter Notebook](https://github.com/davism02/Project-ETL/blob/main/guns_clean.ipynb). The date file for 2013 - 2018 gun violence data could not be uploaded to git hub because it was larger than 100MB.
 
 This [Jupyter Notebokk](https://https://github.com/davism02/Project-ETL/blob/main/poverty_population.ipynb) used for the poverty and population data transformations.  We imported the poverty csv file and filtered out Footnotes column and Puerto Rico as a state row since we were not including Puerto Rico as a state.  We then changed the NAN to zeros then save csv files for 2016 Poverty and 2017 Poverty.   We then imported the population csv and selected the columns needed (rank, state, population2018 and density).  We chose population for 2018 because the dataset had every ten years of data and 2018 was closest.  We did not feel there would be significant change in population so 2018 population data would be representative. We then created Id as index so we can have as a primary key in Postgres. 
 
